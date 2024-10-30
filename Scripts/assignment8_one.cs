@@ -10,7 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
         int testRandomNumber =0;
         while (true) { 
         
-            testRandomNumber= Random.Range(1,20);
+            testRandomNumber= Random.Range(1,21);
             Debug.Log(testRandomNumber);
             if (testRandomNumber == 5) {
                 continue;
