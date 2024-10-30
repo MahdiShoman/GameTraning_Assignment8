@@ -16,7 +16,7 @@ public class assigment8two : MonoBehaviour
 
         while (length!=0) { 
 
-            random=  Random.Range(0, length );
+            random=  Random.Range(0, length+1 );
             resultSectance =    resultSectance + strings[random];
 
             length--;
